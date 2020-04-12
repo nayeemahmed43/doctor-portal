@@ -1,0 +1,26 @@
+.container{
+    text-align: left;
+}
+.content{
+    margin-top: 15%;
+    
+}
+p{
+    color: gray;
+}
+img{
+    height: 50%;
+    width: 60%;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    margin-left: 300px;
+    
+}
+
+.nav{
+    margin-right: 50px;
+}
+.navbar{
+    cursor: pointer;
+}

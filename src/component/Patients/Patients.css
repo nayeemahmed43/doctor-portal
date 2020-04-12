@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#sidebar{
+    background: #27D0E1;
+    width:200px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left:0px;
+    top: 0px;
+    text-align: left;
+    
+}
+
+ul{
+    margin-top: 50px;
+    padding: 0px;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-bottom: 25px;
+    
+   
+
+}
+
+ul li Link{
+    color: white;
+    display: block;
+    padding: 10px;
+    
+}
+ h6{
+    color: white;
+    
+}
+#allpatients{
+    margin-right: 700px;
+    margin-top: 200px;
+}
+#all-patients-table{
+    margin-left: 200px;
+}
