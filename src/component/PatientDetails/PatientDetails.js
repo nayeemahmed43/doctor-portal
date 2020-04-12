@@ -10,7 +10,7 @@ const PatientDetails = (props) => {
 
     
     const onSubmit = (data) =>{
-        fetch('http://localhost:4200/patientinfo',{
+        fetch('https://warm-river-37564.herokuapp.com/patientinfo',{
           method: 'POST',
           headers:{
               'Content-Type': 'application/json'

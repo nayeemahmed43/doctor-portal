@@ -10,7 +10,7 @@ const Review = () => {
     console.log(patients);
 
     useEffect(() =>{
-        fetch('http://localhost:4200/patientInfo/'+queryDate)
+        fetch('https://warm-river-37564.herokuapp.com/patientInfo/'+queryDate)
         .then(res => res.json())
         .then(data => {
             setPatients(data)

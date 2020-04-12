@@ -10,7 +10,7 @@ const Appointment = () => {
     const [doctorInfo,setdoctorInfo] = useState([]);
     
     useEffect(() =>{
-        fetch('http://localhost:4200/doctor')
+        fetch('https://warm-river-37564.herokuapp.com/doctor')
         .then(res => res.json())
         .then(data => {
             setdoctorInfo(data);

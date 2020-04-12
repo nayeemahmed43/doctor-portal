@@ -6,7 +6,7 @@ const Dashboard = () => {
     const [recentAppointment,setRecentAppointment] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:4200/patientinfo')
+        fetch('https://warm-river-37564.herokuapp.com/patientinfo')
         .then(res => res.json())
         .then(data => {
             setRecentAppointment(data)
